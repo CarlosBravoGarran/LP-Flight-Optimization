@@ -1,0 +1,1124 @@
+Problem:    parte
+Rows:       490
+Columns:    120 (120 integer, 120 binary)
+Non-zeros:  868
+Status:     INTEGER OPTIMAL
+Objective:  Coste_Retardo = 4500 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Coste_Retardo
+                                4500                             
+     2 Asignacion_Unica[AV1]
+                                   1             1             = 
+     3 Asignacion_Unica[AV2]
+                                   1             1             = 
+     4 Asignacion_Unica[AV3]
+                                   1             1             = 
+     5 Asignacion_Unica[AV4]
+                                   1             1             = 
+     6 Asignacion_Unica[AV5]
+                                   1             1             = 
+     7 Unicidad_Slot[1,P1]
+                                   1                           1 
+     8 Unicidad_Slot[1,P2]
+                                   0                           1 
+     9 Unicidad_Slot[1,P3]
+                                   0                           1 
+    10 Unicidad_Slot[1,P4]
+                                   0                           1 
+    11 Unicidad_Slot[2,P1]
+                                   1                           1 
+    12 Unicidad_Slot[2,P2]
+                                   0                           1 
+    13 Unicidad_Slot[2,P3]
+                                   0                           1 
+    14 Unicidad_Slot[2,P4]
+                                   0                           1 
+    15 Unicidad_Slot[3,P1]
+                                   0                           1 
+    16 Unicidad_Slot[3,P2]
+                                   0                           1 
+    17 Unicidad_Slot[3,P3]
+                                   0                           1 
+    18 Unicidad_Slot[3,P4]
+                                   0                           1 
+    19 Unicidad_Slot[4,P1]
+                                   1                           1 
+    20 Unicidad_Slot[4,P2]
+                                   0                           1 
+    21 Unicidad_Slot[4,P3]
+                                   0                           1 
+    22 Unicidad_Slot[4,P4]
+                                   0                           1 
+    23 Unicidad_Slot[5,P1]
+                                   1                           1 
+    24 Unicidad_Slot[5,P2]
+                                   0                           1 
+    25 Unicidad_Slot[5,P3]
+                                   0                           1 
+    26 Unicidad_Slot[5,P4]
+                                   0                           1 
+    27 Unicidad_Slot[6,P1]
+                                   0                           1 
+    28 Unicidad_Slot[6,P2]
+                                   0                           1 
+    29 Unicidad_Slot[6,P3]
+                                   0                           1 
+    30 Unicidad_Slot[6,P4]
+                                   1                           1 
+    31 Disponibilidad_Slot[AV1,1,P1]
+                                   0                           1 
+    32 Disponibilidad_Slot[AV1,1,P2]
+                                   0                          -0 
+    33 Disponibilidad_Slot[AV1,1,P3]
+                                   0                           1 
+    34 Disponibilidad_Slot[AV1,1,P4]
+                                   0                           1 
+    35 Disponibilidad_Slot[AV1,2,P1]
+                                   1                           1 
+    36 Disponibilidad_Slot[AV1,2,P2]
+                                   0                           1 
+    37 Disponibilidad_Slot[AV1,2,P3]
+                                   0                          -0 
+    38 Disponibilidad_Slot[AV1,2,P4]
+                                   0                           1 
+    39 Disponibilidad_Slot[AV1,3,P1]
+                                   0                          -0 
+    40 Disponibilidad_Slot[AV1,3,P2]
+                                   0                           1 
+    41 Disponibilidad_Slot[AV1,3,P3]
+                                   0                           1 
+    42 Disponibilidad_Slot[AV1,3,P4]
+                                   0                          -0 
+    43 Disponibilidad_Slot[AV1,4,P1]
+                                   0                           1 
+    44 Disponibilidad_Slot[AV1,4,P2]
+                                   0                          -0 
+    45 Disponibilidad_Slot[AV1,4,P3]
+                                   0                           1 
+    46 Disponibilidad_Slot[AV1,4,P4]
+                                   0                           1 
+    47 Disponibilidad_Slot[AV1,5,P1]
+                                   0                           1 
+    48 Disponibilidad_Slot[AV1,5,P2]
+                                   0                           1 
+    49 Disponibilidad_Slot[AV1,5,P3]
+                                   0                          -0 
+    50 Disponibilidad_Slot[AV1,5,P4]
+                                   0                          -0 
+    51 Disponibilidad_Slot[AV1,6,P1]
+                                   0                          -0 
+    52 Disponibilidad_Slot[AV1,6,P2]
+                                   0                           1 
+    53 Disponibilidad_Slot[AV1,6,P3]
+                                   0                           1 
+    54 Disponibilidad_Slot[AV1,6,P4]
+                                   0                           1 
+    55 Disponibilidad_Slot[AV2,1,P1]
+                                   1                           1 
+    56 Disponibilidad_Slot[AV2,1,P2]
+                                   0                          -0 
+    57 Disponibilidad_Slot[AV2,1,P3]
+                                   0                           1 
+    58 Disponibilidad_Slot[AV2,1,P4]
+                                   0                           1 
+    59 Disponibilidad_Slot[AV2,2,P1]
+                                   0                           1 
+    60 Disponibilidad_Slot[AV2,2,P2]
+                                   0                           1 
+    61 Disponibilidad_Slot[AV2,2,P3]
+                                   0                          -0 
+    62 Disponibilidad_Slot[AV2,2,P4]
+                                   0                           1 
+    63 Disponibilidad_Slot[AV2,3,P1]
+                                   0                          -0 
+    64 Disponibilidad_Slot[AV2,3,P2]
+                                   0                           1 
+    65 Disponibilidad_Slot[AV2,3,P3]
+                                   0                           1 
+    66 Disponibilidad_Slot[AV2,3,P4]
+                                   0                          -0 
+    67 Disponibilidad_Slot[AV2,4,P1]
+                                   0                           1 
+    68 Disponibilidad_Slot[AV2,4,P2]
+                                   0                          -0 
+    69 Disponibilidad_Slot[AV2,4,P3]
+                                   0                           1 
+    70 Disponibilidad_Slot[AV2,4,P4]
+                                   0                           1 
+    71 Disponibilidad_Slot[AV2,5,P1]
+                                   0                           1 
+    72 Disponibilidad_Slot[AV2,5,P2]
+                                   0                           1 
+    73 Disponibilidad_Slot[AV2,5,P3]
+                                   0                          -0 
+    74 Disponibilidad_Slot[AV2,5,P4]
+                                   0                          -0 
+    75 Disponibilidad_Slot[AV2,6,P1]
+                                   0                          -0 
+    76 Disponibilidad_Slot[AV2,6,P2]
+                                   0                           1 
+    77 Disponibilidad_Slot[AV2,6,P3]
+                                   0                           1 
+    78 Disponibilidad_Slot[AV2,6,P4]
+                                   0                           1 
+    79 Disponibilidad_Slot[AV3,1,P1]
+                                   0                           1 
+    80 Disponibilidad_Slot[AV3,1,P2]
+                                   0                          -0 
+    81 Disponibilidad_Slot[AV3,1,P3]
+                                   0                           1 
+    82 Disponibilidad_Slot[AV3,1,P4]
+                                   0                           1 
+    83 Disponibilidad_Slot[AV3,2,P1]
+                                   0                           1 
+    84 Disponibilidad_Slot[AV3,2,P2]
+                                   0                           1 
+    85 Disponibilidad_Slot[AV3,2,P3]
+                                   0                          -0 
+    86 Disponibilidad_Slot[AV3,2,P4]
+                                   0                           1 
+    87 Disponibilidad_Slot[AV3,3,P1]
+                                   0                          -0 
+    88 Disponibilidad_Slot[AV3,3,P2]
+                                   0                           1 
+    89 Disponibilidad_Slot[AV3,3,P3]
+                                   0                           1 
+    90 Disponibilidad_Slot[AV3,3,P4]
+                                   0                          -0 
+    91 Disponibilidad_Slot[AV3,4,P1]
+                                   1                           1 
+    92 Disponibilidad_Slot[AV3,4,P2]
+                                   0                          -0 
+    93 Disponibilidad_Slot[AV3,4,P3]
+                                   0                           1 
+    94 Disponibilidad_Slot[AV3,4,P4]
+                                   0                           1 
+    95 Disponibilidad_Slot[AV3,5,P1]
+                                   0                           1 
+    96 Disponibilidad_Slot[AV3,5,P2]
+                                   0                           1 
+    97 Disponibilidad_Slot[AV3,5,P3]
+                                   0                          -0 
+    98 Disponibilidad_Slot[AV3,5,P4]
+                                   0                          -0 
+    99 Disponibilidad_Slot[AV3,6,P1]
+                                   0                          -0 
+   100 Disponibilidad_Slot[AV3,6,P2]
+                                   0                           1 
+   101 Disponibilidad_Slot[AV3,6,P3]
+                                   0                           1 
+   102 Disponibilidad_Slot[AV3,6,P4]
+                                   0                           1 
+   103 Disponibilidad_Slot[AV4,1,P1]
+                                   0                           1 
+   104 Disponibilidad_Slot[AV4,1,P2]
+                                   0                          -0 
+   105 Disponibilidad_Slot[AV4,1,P3]
+                                   0                           1 
+   106 Disponibilidad_Slot[AV4,1,P4]
+                                   0                           1 
+   107 Disponibilidad_Slot[AV4,2,P1]
+                                   0                           1 
+   108 Disponibilidad_Slot[AV4,2,P2]
+                                   0                           1 
+   109 Disponibilidad_Slot[AV4,2,P3]
+                                   0                          -0 
+   110 Disponibilidad_Slot[AV4,2,P4]
+                                   0                           1 
+   111 Disponibilidad_Slot[AV4,3,P1]
+                                   0                          -0 
+   112 Disponibilidad_Slot[AV4,3,P2]
+                                   0                           1 
+   113 Disponibilidad_Slot[AV4,3,P3]
+                                   0                           1 
+   114 Disponibilidad_Slot[AV4,3,P4]
+                                   0                          -0 
+   115 Disponibilidad_Slot[AV4,4,P1]
+                                   0                           1 
+   116 Disponibilidad_Slot[AV4,4,P2]
+                                   0                          -0 
+   117 Disponibilidad_Slot[AV4,4,P3]
+                                   0                           1 
+   118 Disponibilidad_Slot[AV4,4,P4]
+                                   0                           1 
+   119 Disponibilidad_Slot[AV4,5,P1]
+                                   1                           1 
+   120 Disponibilidad_Slot[AV4,5,P2]
+                                   0                           1 
+   121 Disponibilidad_Slot[AV4,5,P3]
+                                   0                          -0 
+   122 Disponibilidad_Slot[AV4,5,P4]
+                                   0                          -0 
+   123 Disponibilidad_Slot[AV4,6,P1]
+                                   0                          -0 
+   124 Disponibilidad_Slot[AV4,6,P2]
+                                   0                           1 
+   125 Disponibilidad_Slot[AV4,6,P3]
+                                   0                           1 
+   126 Disponibilidad_Slot[AV4,6,P4]
+                                   0                           1 
+   127 Disponibilidad_Slot[AV5,1,P1]
+                                   0                           1 
+   128 Disponibilidad_Slot[AV5,1,P2]
+                                   0                          -0 
+   129 Disponibilidad_Slot[AV5,1,P3]
+                                   0                           1 
+   130 Disponibilidad_Slot[AV5,1,P4]
+                                   0                           1 
+   131 Disponibilidad_Slot[AV5,2,P1]
+                                   0                           1 
+   132 Disponibilidad_Slot[AV5,2,P2]
+                                   0                           1 
+   133 Disponibilidad_Slot[AV5,2,P3]
+                                   0                          -0 
+   134 Disponibilidad_Slot[AV5,2,P4]
+                                   0                           1 
+   135 Disponibilidad_Slot[AV5,3,P1]
+                                   0                          -0 
+   136 Disponibilidad_Slot[AV5,3,P2]
+                                   0                           1 
+   137 Disponibilidad_Slot[AV5,3,P3]
+                                   0                           1 
+   138 Disponibilidad_Slot[AV5,3,P4]
+                                   0                          -0 
+   139 Disponibilidad_Slot[AV5,4,P1]
+                                   0                           1 
+   140 Disponibilidad_Slot[AV5,4,P2]
+                                   0                          -0 
+   141 Disponibilidad_Slot[AV5,4,P3]
+                                   0                           1 
+   142 Disponibilidad_Slot[AV5,4,P4]
+                                   0                           1 
+   143 Disponibilidad_Slot[AV5,5,P1]
+                                   0                           1 
+   144 Disponibilidad_Slot[AV5,5,P2]
+                                   0                           1 
+   145 Disponibilidad_Slot[AV5,5,P3]
+                                   0                          -0 
+   146 Disponibilidad_Slot[AV5,5,P4]
+                                   0                          -0 
+   147 Disponibilidad_Slot[AV5,6,P1]
+                                   0                          -0 
+   148 Disponibilidad_Slot[AV5,6,P2]
+                                   0                           1 
+   149 Disponibilidad_Slot[AV5,6,P3]
+                                   0                           1 
+   150 Disponibilidad_Slot[AV5,6,P4]
+                                   1                           1 
+   151 Restriccion_Horario_1[AV1,1,P1]
+                                   0         -9990               
+   152 Restriccion_Horario_1[AV1,1,P2]
+                                   0         -9990               
+   153 Restriccion_Horario_1[AV1,1,P3]
+                                   0         -9990               
+   154 Restriccion_Horario_1[AV1,1,P4]
+                                   0         -9990               
+   155 Restriccion_Horario_1[AV1,2,P1]
+                              -10000        -10005               
+   156 Restriccion_Horario_1[AV1,2,P2]
+                                   0        -10005               
+   157 Restriccion_Horario_1[AV1,2,P3]
+                                   0        -10005               
+   158 Restriccion_Horario_1[AV1,2,P4]
+                                   0        -10005               
+   159 Restriccion_Horario_1[AV1,3,P1]
+                                   0        -10020               
+   160 Restriccion_Horario_1[AV1,3,P2]
+                                   0        -10020               
+   161 Restriccion_Horario_1[AV1,3,P3]
+                                   0        -10020               
+   162 Restriccion_Horario_1[AV1,3,P4]
+                                   0        -10020               
+   163 Restriccion_Horario_1[AV1,4,P1]
+                                   0        -10035               
+   164 Restriccion_Horario_1[AV1,4,P2]
+                                   0        -10035               
+   165 Restriccion_Horario_1[AV1,4,P3]
+                                   0        -10035               
+   166 Restriccion_Horario_1[AV1,4,P4]
+                                   0        -10035               
+   167 Restriccion_Horario_1[AV1,5,P1]
+                                   0        -10050               
+   168 Restriccion_Horario_1[AV1,5,P2]
+                                   0        -10050               
+   169 Restriccion_Horario_1[AV1,5,P3]
+                                   0        -10050               
+   170 Restriccion_Horario_1[AV1,5,P4]
+                                   0        -10050               
+   171 Restriccion_Horario_1[AV1,6,P1]
+                                   0        -10065               
+   172 Restriccion_Horario_1[AV1,6,P2]
+                                   0        -10065               
+   173 Restriccion_Horario_1[AV1,6,P3]
+                                   0        -10065               
+   174 Restriccion_Horario_1[AV1,6,P4]
+                                   0        -10065               
+   175 Restriccion_Horario_1[AV2,1,P1]
+                              -10000        -10005               
+   176 Restriccion_Horario_1[AV2,1,P2]
+                                   0        -10005               
+   177 Restriccion_Horario_1[AV2,1,P3]
+                                   0        -10005               
+   178 Restriccion_Horario_1[AV2,1,P4]
+                                   0        -10005               
+   179 Restriccion_Horario_1[AV2,2,P1]
+                                   0        -10020               
+   180 Restriccion_Horario_1[AV2,2,P2]
+                                   0        -10020               
+   181 Restriccion_Horario_1[AV2,2,P3]
+                                   0        -10020               
+   182 Restriccion_Horario_1[AV2,2,P4]
+                                   0        -10020               
+   183 Restriccion_Horario_1[AV2,3,P1]
+                                   0        -10035               
+   184 Restriccion_Horario_1[AV2,3,P2]
+                                   0        -10035               
+   185 Restriccion_Horario_1[AV2,3,P3]
+                                   0        -10035               
+   186 Restriccion_Horario_1[AV2,3,P4]
+                                   0        -10035               
+   187 Restriccion_Horario_1[AV2,4,P1]
+                                   0        -10050               
+   188 Restriccion_Horario_1[AV2,4,P2]
+                                   0        -10050               
+   189 Restriccion_Horario_1[AV2,4,P3]
+                                   0        -10050               
+   190 Restriccion_Horario_1[AV2,4,P4]
+                                   0        -10050               
+   191 Restriccion_Horario_1[AV2,5,P1]
+                                   0        -10065               
+   192 Restriccion_Horario_1[AV2,5,P2]
+                                   0        -10065               
+   193 Restriccion_Horario_1[AV2,5,P3]
+                                   0        -10065               
+   194 Restriccion_Horario_1[AV2,5,P4]
+                                   0        -10065               
+   195 Restriccion_Horario_1[AV2,6,P1]
+                                   0        -10080               
+   196 Restriccion_Horario_1[AV2,6,P2]
+                                   0        -10080               
+   197 Restriccion_Horario_1[AV2,6,P3]
+                                   0        -10080               
+   198 Restriccion_Horario_1[AV2,6,P4]
+                                   0        -10080               
+   199 Restriccion_Horario_1[AV3,1,P1]
+                                   0         -9960               
+   200 Restriccion_Horario_1[AV3,1,P2]
+                                   0         -9960               
+   201 Restriccion_Horario_1[AV3,1,P3]
+                                   0         -9960               
+   202 Restriccion_Horario_1[AV3,1,P4]
+                                   0         -9960               
+   203 Restriccion_Horario_1[AV3,2,P1]
+                                   0         -9975               
+   204 Restriccion_Horario_1[AV3,2,P2]
+                                   0         -9975               
+   205 Restriccion_Horario_1[AV3,2,P3]
+                                   0         -9975               
+   206 Restriccion_Horario_1[AV3,2,P4]
+                                   0         -9975               
+   207 Restriccion_Horario_1[AV3,3,P1]
+                                   0         -9990               
+   208 Restriccion_Horario_1[AV3,3,P2]
+                                   0         -9990               
+   209 Restriccion_Horario_1[AV3,3,P3]
+                                   0         -9990               
+   210 Restriccion_Horario_1[AV3,3,P4]
+                                   0         -9990               
+   211 Restriccion_Horario_1[AV3,4,P1]
+                              -10000        -10005               
+   212 Restriccion_Horario_1[AV3,4,P2]
+                                   0        -10005               
+   213 Restriccion_Horario_1[AV3,4,P3]
+                                   0        -10005               
+   214 Restriccion_Horario_1[AV3,4,P4]
+                                   0        -10005               
+   215 Restriccion_Horario_1[AV3,5,P1]
+                                   0        -10020               
+   216 Restriccion_Horario_1[AV3,5,P2]
+                                   0        -10020               
+   217 Restriccion_Horario_1[AV3,5,P3]
+                                   0        -10020               
+   218 Restriccion_Horario_1[AV3,5,P4]
+                                   0        -10020               
+   219 Restriccion_Horario_1[AV3,6,P1]
+                                   0        -10035               
+   220 Restriccion_Horario_1[AV3,6,P2]
+                                   0        -10035               
+   221 Restriccion_Horario_1[AV3,6,P3]
+                                   0        -10035               
+   222 Restriccion_Horario_1[AV3,6,P4]
+                                   0        -10035               
+   223 Restriccion_Horario_1[AV4,1,P1]
+                                   0         -9945               
+   224 Restriccion_Horario_1[AV4,1,P2]
+                                   0         -9945               
+   225 Restriccion_Horario_1[AV4,1,P3]
+                                   0         -9945               
+   226 Restriccion_Horario_1[AV4,1,P4]
+                                   0         -9945               
+   227 Restriccion_Horario_1[AV4,2,P1]
+                                   0         -9960               
+   228 Restriccion_Horario_1[AV4,2,P2]
+                                   0         -9960               
+   229 Restriccion_Horario_1[AV4,2,P3]
+                                   0         -9960               
+   230 Restriccion_Horario_1[AV4,2,P4]
+                                   0         -9960               
+   231 Restriccion_Horario_1[AV4,3,P1]
+                                   0         -9975               
+   232 Restriccion_Horario_1[AV4,3,P2]
+                                   0         -9975               
+   233 Restriccion_Horario_1[AV4,3,P3]
+                                   0         -9975               
+   234 Restriccion_Horario_1[AV4,3,P4]
+                                   0         -9975               
+   235 Restriccion_Horario_1[AV4,4,P1]
+                                   0         -9990               
+   236 Restriccion_Horario_1[AV4,4,P2]
+                                   0         -9990               
+   237 Restriccion_Horario_1[AV4,4,P3]
+                                   0         -9990               
+   238 Restriccion_Horario_1[AV4,4,P4]
+                                   0         -9990               
+   239 Restriccion_Horario_1[AV4,5,P1]
+                              -10000        -10005               
+   240 Restriccion_Horario_1[AV4,5,P2]
+                                   0        -10005               
+   241 Restriccion_Horario_1[AV4,5,P3]
+                                   0        -10005               
+   242 Restriccion_Horario_1[AV4,5,P4]
+                                   0        -10005               
+   243 Restriccion_Horario_1[AV4,6,P1]
+                                   0        -10020               
+   244 Restriccion_Horario_1[AV4,6,P2]
+                                   0        -10020               
+   245 Restriccion_Horario_1[AV4,6,P3]
+                                   0        -10020               
+   246 Restriccion_Horario_1[AV4,6,P4]
+                                   0        -10020               
+   247 Restriccion_Horario_1[AV5,1,P1]
+                                   0         -9930               
+   248 Restriccion_Horario_1[AV5,1,P2]
+                                   0         -9930               
+   249 Restriccion_Horario_1[AV5,1,P3]
+                                   0         -9930               
+   250 Restriccion_Horario_1[AV5,1,P4]
+                                   0         -9930               
+   251 Restriccion_Horario_1[AV5,2,P1]
+                                   0         -9945               
+   252 Restriccion_Horario_1[AV5,2,P2]
+                                   0         -9945               
+   253 Restriccion_Horario_1[AV5,2,P3]
+                                   0         -9945               
+   254 Restriccion_Horario_1[AV5,2,P4]
+                                   0         -9945               
+   255 Restriccion_Horario_1[AV5,3,P1]
+                                   0         -9960               
+   256 Restriccion_Horario_1[AV5,3,P2]
+                                   0         -9960               
+   257 Restriccion_Horario_1[AV5,3,P3]
+                                   0         -9960               
+   258 Restriccion_Horario_1[AV5,3,P4]
+                                   0         -9960               
+   259 Restriccion_Horario_1[AV5,4,P1]
+                                   0         -9975               
+   260 Restriccion_Horario_1[AV5,4,P2]
+                                   0         -9975               
+   261 Restriccion_Horario_1[AV5,4,P3]
+                                   0         -9975               
+   262 Restriccion_Horario_1[AV5,4,P4]
+                                   0         -9975               
+   263 Restriccion_Horario_1[AV5,5,P1]
+                                   0         -9990               
+   264 Restriccion_Horario_1[AV5,5,P2]
+                                   0         -9990               
+   265 Restriccion_Horario_1[AV5,5,P3]
+                                   0         -9990               
+   266 Restriccion_Horario_1[AV5,5,P4]
+                                   0         -9990               
+   267 Restriccion_Horario_1[AV5,6,P1]
+                                   0        -10005               
+   268 Restriccion_Horario_1[AV5,6,P2]
+                                   0        -10005               
+   269 Restriccion_Horario_1[AV5,6,P3]
+                                   0        -10005               
+   270 Restriccion_Horario_1[AV5,6,P4]
+                              -10000        -10005               
+   271 Restriccion_Horario_2[AV1,1,P1]
+                                   0                       10075 
+   272 Restriccion_Horario_2[AV1,1,P2]
+                                   0                       10075 
+   273 Restriccion_Horario_2[AV1,1,P3]
+                                   0                       10075 
+   274 Restriccion_Horario_2[AV1,1,P4]
+                                   0                       10075 
+   275 Restriccion_Horario_2[AV1,2,P1]
+                               10000                       10060 
+   276 Restriccion_Horario_2[AV1,2,P2]
+                                   0                       10060 
+   277 Restriccion_Horario_2[AV1,2,P3]
+                                   0                       10060 
+   278 Restriccion_Horario_2[AV1,2,P4]
+                                   0                       10060 
+   279 Restriccion_Horario_2[AV1,3,P1]
+                                   0                       10045 
+   280 Restriccion_Horario_2[AV1,3,P2]
+                                   0                       10045 
+   281 Restriccion_Horario_2[AV1,3,P3]
+                                   0                       10045 
+   282 Restriccion_Horario_2[AV1,3,P4]
+                                   0                       10045 
+   283 Restriccion_Horario_2[AV1,4,P1]
+                                   0                       10030 
+   284 Restriccion_Horario_2[AV1,4,P2]
+                                   0                       10030 
+   285 Restriccion_Horario_2[AV1,4,P3]
+                                   0                       10030 
+   286 Restriccion_Horario_2[AV1,4,P4]
+                                   0                       10030 
+   287 Restriccion_Horario_2[AV1,5,P1]
+                                   0                       10015 
+   288 Restriccion_Horario_2[AV1,5,P2]
+                                   0                       10015 
+   289 Restriccion_Horario_2[AV1,5,P3]
+                                   0                       10015 
+   290 Restriccion_Horario_2[AV1,5,P4]
+                                   0                       10015 
+   291 Restriccion_Horario_2[AV1,6,P1]
+                                   0                       10000 
+   292 Restriccion_Horario_2[AV1,6,P2]
+                                   0                       10000 
+   293 Restriccion_Horario_2[AV1,6,P3]
+                                   0                       10000 
+   294 Restriccion_Horario_2[AV1,6,P4]
+                                   0                       10000 
+   295 Restriccion_Horario_2[AV2,1,P1]
+                               10000                       10030 
+   296 Restriccion_Horario_2[AV2,1,P2]
+                                   0                       10030 
+   297 Restriccion_Horario_2[AV2,1,P3]
+                                   0                       10030 
+   298 Restriccion_Horario_2[AV2,1,P4]
+                                   0                       10030 
+   299 Restriccion_Horario_2[AV2,2,P1]
+                                   0                       10015 
+   300 Restriccion_Horario_2[AV2,2,P2]
+                                   0                       10015 
+   301 Restriccion_Horario_2[AV2,2,P3]
+                                   0                       10015 
+   302 Restriccion_Horario_2[AV2,2,P4]
+                                   0                       10015 
+   303 Restriccion_Horario_2[AV2,3,P1]
+                                   0                       10000 
+   304 Restriccion_Horario_2[AV2,3,P2]
+                                   0                       10000 
+   305 Restriccion_Horario_2[AV2,3,P3]
+                                   0                       10000 
+   306 Restriccion_Horario_2[AV2,3,P4]
+                                   0                       10000 
+   307 Restriccion_Horario_2[AV2,4,P1]
+                                   0                        9985 
+   308 Restriccion_Horario_2[AV2,4,P2]
+                                   0                        9985 
+   309 Restriccion_Horario_2[AV2,4,P3]
+                                   0                        9985 
+   310 Restriccion_Horario_2[AV2,4,P4]
+                                   0                        9985 
+   311 Restriccion_Horario_2[AV2,5,P1]
+                                   0                        9970 
+   312 Restriccion_Horario_2[AV2,5,P2]
+                                   0                        9970 
+   313 Restriccion_Horario_2[AV2,5,P3]
+                                   0                        9970 
+   314 Restriccion_Horario_2[AV2,5,P4]
+                                   0                        9970 
+   315 Restriccion_Horario_2[AV2,6,P1]
+                                   0                        9955 
+   316 Restriccion_Horario_2[AV2,6,P2]
+                                   0                        9955 
+   317 Restriccion_Horario_2[AV2,6,P3]
+                                   0                        9955 
+   318 Restriccion_Horario_2[AV2,6,P4]
+                                   0                        9955 
+   319 Restriccion_Horario_2[AV3,1,P1]
+                                   0                       10060 
+   320 Restriccion_Horario_2[AV3,1,P2]
+                                   0                       10060 
+   321 Restriccion_Horario_2[AV3,1,P3]
+                                   0                       10060 
+   322 Restriccion_Horario_2[AV3,1,P4]
+                                   0                       10060 
+   323 Restriccion_Horario_2[AV3,2,P1]
+                                   0                       10045 
+   324 Restriccion_Horario_2[AV3,2,P2]
+                                   0                       10045 
+   325 Restriccion_Horario_2[AV3,2,P3]
+                                   0                       10045 
+   326 Restriccion_Horario_2[AV3,2,P4]
+                                   0                       10045 
+   327 Restriccion_Horario_2[AV3,3,P1]
+                                   0                       10030 
+   328 Restriccion_Horario_2[AV3,3,P2]
+                                   0                       10030 
+   329 Restriccion_Horario_2[AV3,3,P3]
+                                   0                       10030 
+   330 Restriccion_Horario_2[AV3,3,P4]
+                                   0                       10030 
+   331 Restriccion_Horario_2[AV3,4,P1]
+                               10000                       10015 
+   332 Restriccion_Horario_2[AV3,4,P2]
+                                   0                       10015 
+   333 Restriccion_Horario_2[AV3,4,P3]
+                                   0                       10015 
+   334 Restriccion_Horario_2[AV3,4,P4]
+                                   0                       10015 
+   335 Restriccion_Horario_2[AV3,5,P1]
+                                   0                       10000 
+   336 Restriccion_Horario_2[AV3,5,P2]
+                                   0                       10000 
+   337 Restriccion_Horario_2[AV3,5,P3]
+                                   0                       10000 
+   338 Restriccion_Horario_2[AV3,5,P4]
+                                   0                       10000 
+   339 Restriccion_Horario_2[AV3,6,P1]
+                                   0                        9985 
+   340 Restriccion_Horario_2[AV3,6,P2]
+                                   0                        9985 
+   341 Restriccion_Horario_2[AV3,6,P3]
+                                   0                        9985 
+   342 Restriccion_Horario_2[AV3,6,P4]
+                                   0                        9985 
+   343 Restriccion_Horario_2[AV4,1,P1]
+                                   0                       10075 
+   344 Restriccion_Horario_2[AV4,1,P2]
+                                   0                       10075 
+   345 Restriccion_Horario_2[AV4,1,P3]
+                                   0                       10075 
+   346 Restriccion_Horario_2[AV4,1,P4]
+                                   0                       10075 
+   347 Restriccion_Horario_2[AV4,2,P1]
+                                   0                       10060 
+   348 Restriccion_Horario_2[AV4,2,P2]
+                                   0                       10060 
+   349 Restriccion_Horario_2[AV4,2,P3]
+                                   0                       10060 
+   350 Restriccion_Horario_2[AV4,2,P4]
+                                   0                       10060 
+   351 Restriccion_Horario_2[AV4,3,P1]
+                                   0                       10045 
+   352 Restriccion_Horario_2[AV4,3,P2]
+                                   0                       10045 
+   353 Restriccion_Horario_2[AV4,3,P3]
+                                   0                       10045 
+   354 Restriccion_Horario_2[AV4,3,P4]
+                                   0                       10045 
+   355 Restriccion_Horario_2[AV4,4,P1]
+                                   0                       10030 
+   356 Restriccion_Horario_2[AV4,4,P2]
+                                   0                       10030 
+   357 Restriccion_Horario_2[AV4,4,P3]
+                                   0                       10030 
+   358 Restriccion_Horario_2[AV4,4,P4]
+                                   0                       10030 
+   359 Restriccion_Horario_2[AV4,5,P1]
+                               10000                       10015 
+   360 Restriccion_Horario_2[AV4,5,P2]
+                                   0                       10015 
+   361 Restriccion_Horario_2[AV4,5,P3]
+                                   0                       10015 
+   362 Restriccion_Horario_2[AV4,5,P4]
+                                   0                       10015 
+   363 Restriccion_Horario_2[AV4,6,P1]
+                                   0                       10000 
+   364 Restriccion_Horario_2[AV4,6,P2]
+                                   0                       10000 
+   365 Restriccion_Horario_2[AV4,6,P3]
+                                   0                       10000 
+   366 Restriccion_Horario_2[AV4,6,P4]
+                                   0                       10000 
+   367 Restriccion_Horario_2[AV5,1,P1]
+                                   0                       10090 
+   368 Restriccion_Horario_2[AV5,1,P2]
+                                   0                       10090 
+   369 Restriccion_Horario_2[AV5,1,P3]
+                                   0                       10090 
+   370 Restriccion_Horario_2[AV5,1,P4]
+                                   0                       10090 
+   371 Restriccion_Horario_2[AV5,2,P1]
+                                   0                       10075 
+   372 Restriccion_Horario_2[AV5,2,P2]
+                                   0                       10075 
+   373 Restriccion_Horario_2[AV5,2,P3]
+                                   0                       10075 
+   374 Restriccion_Horario_2[AV5,2,P4]
+                                   0                       10075 
+   375 Restriccion_Horario_2[AV5,3,P1]
+                                   0                       10060 
+   376 Restriccion_Horario_2[AV5,3,P2]
+                                   0                       10060 
+   377 Restriccion_Horario_2[AV5,3,P3]
+                                   0                       10060 
+   378 Restriccion_Horario_2[AV5,3,P4]
+                                   0                       10060 
+   379 Restriccion_Horario_2[AV5,4,P1]
+                                   0                       10045 
+   380 Restriccion_Horario_2[AV5,4,P2]
+                                   0                       10045 
+   381 Restriccion_Horario_2[AV5,4,P3]
+                                   0                       10045 
+   382 Restriccion_Horario_2[AV5,4,P4]
+                                   0                       10045 
+   383 Restriccion_Horario_2[AV5,5,P1]
+                                   0                       10030 
+   384 Restriccion_Horario_2[AV5,5,P2]
+                                   0                       10030 
+   385 Restriccion_Horario_2[AV5,5,P3]
+                                   0                       10030 
+   386 Restriccion_Horario_2[AV5,5,P4]
+                                   0                       10030 
+   387 Restriccion_Horario_2[AV5,6,P1]
+                                   0                       10015 
+   388 Restriccion_Horario_2[AV5,6,P2]
+                                   0                       10015 
+   389 Restriccion_Horario_2[AV5,6,P3]
+                                   0                       10015 
+   390 Restriccion_Horario_2[AV5,6,P4]
+                               10000                       10015 
+   391 Seguridad_Consecutivos[AV1,1,P1]
+                                   1                           1 
+   392 Seguridad_Consecutivos[AV1,1,P2]
+                                   0                           1 
+   393 Seguridad_Consecutivos[AV1,1,P3]
+                                   0                           1 
+   394 Seguridad_Consecutivos[AV1,1,P4]
+                                   0                           1 
+   395 Seguridad_Consecutivos[AV1,2,P1]
+                                   1                           1 
+   396 Seguridad_Consecutivos[AV1,2,P2]
+                                   0                           1 
+   397 Seguridad_Consecutivos[AV1,2,P3]
+                                   0                           1 
+   398 Seguridad_Consecutivos[AV1,2,P4]
+                                   0                           1 
+   399 Seguridad_Consecutivos[AV1,3,P1]
+                                   0                           1 
+   400 Seguridad_Consecutivos[AV1,3,P2]
+                                   0                           1 
+   401 Seguridad_Consecutivos[AV1,3,P3]
+                                   0                           1 
+   402 Seguridad_Consecutivos[AV1,3,P4]
+                                   0                           1 
+   403 Seguridad_Consecutivos[AV1,4,P1]
+                                   0                           1 
+   404 Seguridad_Consecutivos[AV1,4,P2]
+                                   0                           1 
+   405 Seguridad_Consecutivos[AV1,4,P3]
+                                   0                           1 
+   406 Seguridad_Consecutivos[AV1,4,P4]
+                                   0                           1 
+   407 Seguridad_Consecutivos[AV1,5,P1]
+                                   0                           1 
+   408 Seguridad_Consecutivos[AV1,5,P2]
+                                   0                           1 
+   409 Seguridad_Consecutivos[AV1,5,P3]
+                                   0                           1 
+   410 Seguridad_Consecutivos[AV1,5,P4]
+                                   0                           1 
+   411 Seguridad_Consecutivos[AV2,1,P1]
+                                   1                           1 
+   412 Seguridad_Consecutivos[AV2,1,P2]
+                                   0                           1 
+   413 Seguridad_Consecutivos[AV2,1,P3]
+                                   0                           1 
+   414 Seguridad_Consecutivos[AV2,1,P4]
+                                   0                           1 
+   415 Seguridad_Consecutivos[AV2,2,P1]
+                                   0                           1 
+   416 Seguridad_Consecutivos[AV2,2,P2]
+                                   0                           1 
+   417 Seguridad_Consecutivos[AV2,2,P3]
+                                   0                           1 
+   418 Seguridad_Consecutivos[AV2,2,P4]
+                                   0                           1 
+   419 Seguridad_Consecutivos[AV2,3,P1]
+                                   0                           1 
+   420 Seguridad_Consecutivos[AV2,3,P2]
+                                   0                           1 
+   421 Seguridad_Consecutivos[AV2,3,P3]
+                                   0                           1 
+   422 Seguridad_Consecutivos[AV2,3,P4]
+                                   0                           1 
+   423 Seguridad_Consecutivos[AV2,4,P1]
+                                   0                           1 
+   424 Seguridad_Consecutivos[AV2,4,P2]
+                                   0                           1 
+   425 Seguridad_Consecutivos[AV2,4,P3]
+                                   0                           1 
+   426 Seguridad_Consecutivos[AV2,4,P4]
+                                   0                           1 
+   427 Seguridad_Consecutivos[AV2,5,P1]
+                                   0                           1 
+   428 Seguridad_Consecutivos[AV2,5,P2]
+                                   0                           1 
+   429 Seguridad_Consecutivos[AV2,5,P3]
+                                   0                           1 
+   430 Seguridad_Consecutivos[AV2,5,P4]
+                                   0                           1 
+   431 Seguridad_Consecutivos[AV3,1,P1]
+                                   0                           1 
+   432 Seguridad_Consecutivos[AV3,1,P2]
+                                   0                           1 
+   433 Seguridad_Consecutivos[AV3,1,P3]
+                                   0                           1 
+   434 Seguridad_Consecutivos[AV3,1,P4]
+                                   0                           1 
+   435 Seguridad_Consecutivos[AV3,2,P1]
+                                   0                           1 
+   436 Seguridad_Consecutivos[AV3,2,P2]
+                                   0                           1 
+   437 Seguridad_Consecutivos[AV3,2,P3]
+                                   0                           1 
+   438 Seguridad_Consecutivos[AV3,2,P4]
+                                   0                           1 
+   439 Seguridad_Consecutivos[AV3,3,P1]
+                                   1                           1 
+   440 Seguridad_Consecutivos[AV3,3,P2]
+                                   0                           1 
+   441 Seguridad_Consecutivos[AV3,3,P3]
+                                   0                           1 
+   442 Seguridad_Consecutivos[AV3,3,P4]
+                                   0                           1 
+   443 Seguridad_Consecutivos[AV3,4,P1]
+                                   1                           1 
+   444 Seguridad_Consecutivos[AV3,4,P2]
+                                   0                           1 
+   445 Seguridad_Consecutivos[AV3,4,P3]
+                                   0                           1 
+   446 Seguridad_Consecutivos[AV3,4,P4]
+                                   0                           1 
+   447 Seguridad_Consecutivos[AV3,5,P1]
+                                   0                           1 
+   448 Seguridad_Consecutivos[AV3,5,P2]
+                                   0                           1 
+   449 Seguridad_Consecutivos[AV3,5,P3]
+                                   0                           1 
+   450 Seguridad_Consecutivos[AV3,5,P4]
+                                   0                           1 
+   451 Seguridad_Consecutivos[AV4,1,P1]
+                                   0                           1 
+   452 Seguridad_Consecutivos[AV4,1,P2]
+                                   0                           1 
+   453 Seguridad_Consecutivos[AV4,1,P3]
+                                   0                           1 
+   454 Seguridad_Consecutivos[AV4,1,P4]
+                                   0                           1 
+   455 Seguridad_Consecutivos[AV4,2,P1]
+                                   0                           1 
+   456 Seguridad_Consecutivos[AV4,2,P2]
+                                   0                           1 
+   457 Seguridad_Consecutivos[AV4,2,P3]
+                                   0                           1 
+   458 Seguridad_Consecutivos[AV4,2,P4]
+                                   0                           1 
+   459 Seguridad_Consecutivos[AV4,3,P1]
+                                   0                           1 
+   460 Seguridad_Consecutivos[AV4,3,P2]
+                                   0                           1 
+   461 Seguridad_Consecutivos[AV4,3,P3]
+                                   0                           1 
+   462 Seguridad_Consecutivos[AV4,3,P4]
+                                   0                           1 
+   463 Seguridad_Consecutivos[AV4,4,P1]
+                                   1                           1 
+   464 Seguridad_Consecutivos[AV4,4,P2]
+                                   0                           1 
+   465 Seguridad_Consecutivos[AV4,4,P3]
+                                   0                           1 
+   466 Seguridad_Consecutivos[AV4,4,P4]
+                                   0                           1 
+   467 Seguridad_Consecutivos[AV4,5,P1]
+                                   1                           1 
+   468 Seguridad_Consecutivos[AV4,5,P2]
+                                   0                           1 
+   469 Seguridad_Consecutivos[AV4,5,P3]
+                                   0                           1 
+   470 Seguridad_Consecutivos[AV4,5,P4]
+                                   0                           1 
+   471 Seguridad_Consecutivos[AV5,1,P1]
+                                   0                           1 
+   472 Seguridad_Consecutivos[AV5,1,P2]
+                                   0                           1 
+   473 Seguridad_Consecutivos[AV5,1,P3]
+                                   0                           1 
+   474 Seguridad_Consecutivos[AV5,1,P4]
+                                   0                           1 
+   475 Seguridad_Consecutivos[AV5,2,P1]
+                                   0                           1 
+   476 Seguridad_Consecutivos[AV5,2,P2]
+                                   0                           1 
+   477 Seguridad_Consecutivos[AV5,2,P3]
+                                   0                           1 
+   478 Seguridad_Consecutivos[AV5,2,P4]
+                                   0                           1 
+   479 Seguridad_Consecutivos[AV5,3,P1]
+                                   0                           1 
+   480 Seguridad_Consecutivos[AV5,3,P2]
+                                   0                           1 
+   481 Seguridad_Consecutivos[AV5,3,P3]
+                                   0                           1 
+   482 Seguridad_Consecutivos[AV5,3,P4]
+                                   0                           1 
+   483 Seguridad_Consecutivos[AV5,4,P1]
+                                   0                           1 
+   484 Seguridad_Consecutivos[AV5,4,P2]
+                                   0                           1 
+   485 Seguridad_Consecutivos[AV5,4,P3]
+                                   0                           1 
+   486 Seguridad_Consecutivos[AV5,4,P4]
+                                   0                           1 
+   487 Seguridad_Consecutivos[AV5,5,P1]
+                                   0                           1 
+   488 Seguridad_Consecutivos[AV5,5,P2]
+                                   0                           1 
+   489 Seguridad_Consecutivos[AV5,5,P3]
+                                   0                           1 
+   490 Seguridad_Consecutivos[AV5,5,P4]
+                                   1                           1 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[AV1,1,P1]  *              0             0             1 
+     2 x[AV1,1,P2]  *              0             0             1 
+     3 x[AV1,1,P3]  *              0             0             1 
+     4 x[AV1,1,P4]  *              0             0             1 
+     5 x[AV1,2,P1]  *              1             0             1 
+     6 x[AV1,2,P2]  *              0             0             1 
+     7 x[AV1,2,P3]  *              0             0             1 
+     8 x[AV1,2,P4]  *              0             0             1 
+     9 x[AV1,3,P1]  *              0             0             1 
+    10 x[AV1,3,P2]  *              0             0             1 
+    11 x[AV1,3,P3]  *              0             0             1 
+    12 x[AV1,3,P4]  *              0             0             1 
+    13 x[AV1,4,P1]  *              0             0             1 
+    14 x[AV1,4,P2]  *              0             0             1 
+    15 x[AV1,4,P3]  *              0             0             1 
+    16 x[AV1,4,P4]  *              0             0             1 
+    17 x[AV1,5,P1]  *              0             0             1 
+    18 x[AV1,5,P2]  *              0             0             1 
+    19 x[AV1,5,P3]  *              0             0             1 
+    20 x[AV1,5,P4]  *              0             0             1 
+    21 x[AV1,6,P1]  *              0             0             1 
+    22 x[AV1,6,P2]  *              0             0             1 
+    23 x[AV1,6,P3]  *              0             0             1 
+    24 x[AV1,6,P4]  *              0             0             1 
+    25 x[AV2,1,P1]  *              1             0             1 
+    26 x[AV2,1,P2]  *              0             0             1 
+    27 x[AV2,1,P3]  *              0             0             1 
+    28 x[AV2,1,P4]  *              0             0             1 
+    29 x[AV2,2,P1]  *              0             0             1 
+    30 x[AV2,2,P2]  *              0             0             1 
+    31 x[AV2,2,P3]  *              0             0             1 
+    32 x[AV2,2,P4]  *              0             0             1 
+    33 x[AV2,3,P1]  *              0             0             1 
+    34 x[AV2,3,P2]  *              0             0             1 
+    35 x[AV2,3,P3]  *              0             0             1 
+    36 x[AV2,3,P4]  *              0             0             1 
+    37 x[AV2,4,P1]  *              0             0             1 
+    38 x[AV2,4,P2]  *              0             0             1 
+    39 x[AV2,4,P3]  *              0             0             1 
+    40 x[AV2,4,P4]  *              0             0             1 
+    41 x[AV2,5,P1]  *              0             0             1 
+    42 x[AV2,5,P2]  *              0             0             1 
+    43 x[AV2,5,P3]  *              0             0             1 
+    44 x[AV2,5,P4]  *              0             0             1 
+    45 x[AV2,6,P1]  *              0             0             1 
+    46 x[AV2,6,P2]  *              0             0             1 
+    47 x[AV2,6,P3]  *              0             0             1 
+    48 x[AV2,6,P4]  *              0             0             1 
+    49 x[AV3,1,P1]  *              0             0             1 
+    50 x[AV3,1,P2]  *              0             0             1 
+    51 x[AV3,1,P3]  *              0             0             1 
+    52 x[AV3,1,P4]  *              0             0             1 
+    53 x[AV3,2,P1]  *              0             0             1 
+    54 x[AV3,2,P2]  *              0             0             1 
+    55 x[AV3,2,P3]  *              0             0             1 
+    56 x[AV3,2,P4]  *              0             0             1 
+    57 x[AV3,3,P1]  *              0             0             1 
+    58 x[AV3,3,P2]  *              0             0             1 
+    59 x[AV3,3,P3]  *              0             0             1 
+    60 x[AV3,3,P4]  *              0             0             1 
+    61 x[AV3,4,P1]  *              1             0             1 
+    62 x[AV3,4,P2]  *              0             0             1 
+    63 x[AV3,4,P3]  *              0             0             1 
+    64 x[AV3,4,P4]  *              0             0             1 
+    65 x[AV3,5,P1]  *              0             0             1 
+    66 x[AV3,5,P2]  *              0             0             1 
+    67 x[AV3,5,P3]  *              0             0             1 
+    68 x[AV3,5,P4]  *              0             0             1 
+    69 x[AV3,6,P1]  *              0             0             1 
+    70 x[AV3,6,P2]  *              0             0             1 
+    71 x[AV3,6,P3]  *              0             0             1 
+    72 x[AV3,6,P4]  *              0             0             1 
+    73 x[AV4,1,P1]  *              0             0             1 
+    74 x[AV4,1,P2]  *              0             0             1 
+    75 x[AV4,1,P3]  *              0             0             1 
+    76 x[AV4,1,P4]  *              0             0             1 
+    77 x[AV4,2,P1]  *              0             0             1 
+    78 x[AV4,2,P2]  *              0             0             1 
+    79 x[AV4,2,P3]  *              0             0             1 
+    80 x[AV4,2,P4]  *              0             0             1 
+    81 x[AV4,3,P1]  *              0             0             1 
+    82 x[AV4,3,P2]  *              0             0             1 
+    83 x[AV4,3,P3]  *              0             0             1 
+    84 x[AV4,3,P4]  *              0             0             1 
+    85 x[AV4,4,P1]  *              0             0             1 
+    86 x[AV4,4,P2]  *              0             0             1 
+    87 x[AV4,4,P3]  *              0             0             1 
+    88 x[AV4,4,P4]  *              0             0             1 
+    89 x[AV4,5,P1]  *              1             0             1 
+    90 x[AV4,5,P2]  *              0             0             1 
+    91 x[AV4,5,P3]  *              0             0             1 
+    92 x[AV4,5,P4]  *              0             0             1 
+    93 x[AV4,6,P1]  *              0             0             1 
+    94 x[AV4,6,P2]  *              0             0             1 
+    95 x[AV4,6,P3]  *              0             0             1 
+    96 x[AV4,6,P4]  *              0             0             1 
+    97 x[AV5,1,P1]  *              0             0             1 
+    98 x[AV5,1,P2]  *              0             0             1 
+    99 x[AV5,1,P3]  *              0             0             1 
+   100 x[AV5,1,P4]  *              0             0             1 
+   101 x[AV5,2,P1]  *              0             0             1 
+   102 x[AV5,2,P2]  *              0             0             1 
+   103 x[AV5,2,P3]  *              0             0             1 
+   104 x[AV5,2,P4]  *              0             0             1 
+   105 x[AV5,3,P1]  *              0             0             1 
+   106 x[AV5,3,P2]  *              0             0             1 
+   107 x[AV5,3,P3]  *              0             0             1 
+   108 x[AV5,3,P4]  *              0             0             1 
+   109 x[AV5,4,P1]  *              0             0             1 
+   110 x[AV5,4,P2]  *              0             0             1 
+   111 x[AV5,4,P3]  *              0             0             1 
+   112 x[AV5,4,P4]  *              0             0             1 
+   113 x[AV5,5,P1]  *              0             0             1 
+   114 x[AV5,5,P2]  *              0             0             1 
+   115 x[AV5,5,P3]  *              0             0             1 
+   116 x[AV5,5,P4]  *              0             0             1 
+   117 x[AV5,6,P1]  *              0             0             1 
+   118 x[AV5,6,P2]  *              0             0             1 
+   119 x[AV5,6,P3]  *              0             0             1 
+   120 x[AV5,6,P4]  *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

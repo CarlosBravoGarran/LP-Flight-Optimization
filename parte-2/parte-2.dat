@@ -1,0 +1,46 @@
+# Conjuntos de aviones, slots y pistas
+set AVIONES := AV1 AV2 AV3 AV4 AV5;
+set SLOTS := 1 2 3 4 5 6;
+set PISTAS := P1 P2 P3 P4;  # Definición de las pistas
+
+# Coste de retraso por minuto de cada avión
+param coste :=
+    AV1 100
+    AV2 200
+    AV3 150
+    AV4 250
+    AV5 200;
+
+# Hora de llegada programada (en minutos desde medianoche)
+param llegada :=
+    AV1 550    # 9:10 AM
+    AV2 535    # 8:55 AM
+    AV3 580    # 9:40 AM
+    AV4 595    # 9:55 AM
+    AV5 610;   # 10:10 AM
+
+# Hora límite de aterrizaje (en minutos desde medianoche)
+param limite :=
+    AV1 615    # 10:15 AM
+    AV2 570    # 9:30 AM
+    AV3 600    # 10:00 AM
+    AV4 615    # 10:15 AM
+    AV5 630;   # 10:30 AM
+
+# Inicio de cada slot (en minutos desde medianoche)
+param inicio :=
+    1 540     # 9:00 AM
+    2 555     # 9:15 AM
+    3 570     # 9:30 AM
+    4 585     # 9:45 AM
+    5 600     # 10:00 AM
+    6 615;    # 10:15 AM
+
+# Matriz de disponibilidad: 1 si el slot está disponible, 0 si está ocupado
+param disponibilidad : P1 P2 P3 P4 :=
+    1   0   0   1   1    # Slot de 9:00
+    2   0   0   1   0    # Slot de 9:15
+    3   0   1   1   0    # Slot de 9:30
+    4   0   1   0   0    # Slot de 9:45
+    5   1   0   0   1    # Slot de 10:00
+    6   1   0   1   1;   # Slot de 10:15
