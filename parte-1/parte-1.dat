@@ -1,0 +1,30 @@
+# Conjuntos
+set AVIONES := AV1 AV2 AV3 AV4 AV5;
+set TARIFAS := estandar leisure business;
+
+# Parámetros
+param precio :=
+    estandar 19
+    leisure 49
+    business 69;
+
+param peso :=
+    estandar 1
+    leisure 20
+    business 40;
+
+param capacidad_asientos :=
+    AV1 90
+    AV2 120
+    AV3 200
+    AV4 150
+    AV5 190;
+
+param capacidad_peso :=
+    AV1 1700
+    AV2 2700
+    AV3 1300
+    AV4 1700
+    AV5 2000;
+
+end;
