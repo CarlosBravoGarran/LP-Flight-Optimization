@@ -11,10 +11,10 @@ param capacidad_asientos {AVIONES};      # Capacidad de asientos para cada avió
 param capacidad_peso {AVIONES};          # Capacidad de peso para cada avión
 
 # Parámetros de Parte 2: Coste de Retraso y Disponibilidad de Slots
-param coste{i in AVIONES};               # Coste de retraso por minuto para cada avión
-param llegada{i in AVIONES};             # Hora de llegada programada
-param limite{i in AVIONES};              # Hora límite de aterrizaje
-param inicio{s in SLOTS};                # Hora de inicio de cada slot
+param coste{i in AVIONES};                      # Coste de retraso por minuto para cada avión
+param llegada{i in AVIONES};                    # Hora de llegada programada
+param limite{i in AVIONES};                     # Hora límite de aterrizaje
+param inicio{s in SLOTS};                       # Hora de inicio de cada slot
 param disponibilidad{s in SLOTS, k in PISTAS};  # Matriz de disponibilidad
 
 # Subconjunto de slots válidos para cada avión

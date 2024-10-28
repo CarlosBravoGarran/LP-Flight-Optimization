@@ -31,10 +31,10 @@ s.t. Asignacion_Slot{i in AVIONES}:
 s.t. Slot_Unico{j in SLOTS, k in PISTAS}:
     sum{i in AVIONES} x[i, j, k] <= 1;
 
-#Restricción 3 Solo se asignan aviones a slots disponibles
+#Restricción 3: Solo se asignan aviones a slots disponibles
 s.t. Disponibilidad_Slot{i in AVIONES, j in SLOTS_VALIDOS[i], k in PISTAS}:
     x[i, j, k] <= disponibilidad[j, k];
 
-#Restricción 4 Restricción de consecutividad de slots para cada avión y pista
+#Restricción 4: Restricción de consecutividad de slots para cada avión y pista
 s.t. No_Aterr_Consec{i in AVIONES, j in SLOTS_VALIDOS[i], k in PISTAS: j < 6}:
     x[i, j, k] + x[i, j+1, k] <= 1;
