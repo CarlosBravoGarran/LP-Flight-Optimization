@@ -53,41 +53,41 @@ Objective:  Beneficio_Total = 26190 (MAXimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 x[estandar,AV1]
+     1 x[AV1,estandar]
                     *             19             0               
-     2 x[estandar,AV2]
-                    *             38             0               
-     3 x[estandar,AV3]
-                    *            160             0               
-     4 x[estandar,AV4]
-                    *            100             0               
-     5 x[estandar,AV5]
-                    *            133             0               
-     6 x[leisure,AV1]
+     2 x[AV1,leisure]
                     *             58             0               
-     7 x[leisure,AV2]
-                    *             31             0               
-     8 x[leisure,AV3]
-                    *             23             0               
-     9 x[leisure,AV4]
-                    *             20             0               
-    10 x[leisure,AV5]
-                    *             21             0               
-    11 x[business,AV1]
+     3 x[AV1,business]
                     *             13             0               
-    12 x[business,AV2]
+     4 x[AV2,estandar]
+                    *             38             0               
+     5 x[AV2,leisure]
+                    *             31             0               
+     6 x[AV2,business]
                     *             51             0               
-    13 x[business,AV3]
+     7 x[AV3,estandar]
+                    *            160             0               
+     8 x[AV3,leisure]
+                    *             23             0               
+     9 x[AV3,business]
                     *             17             0               
-    14 x[business,AV4]
+    10 x[AV4,estandar]
+                    *            100             0               
+    11 x[AV4,leisure]
+                    *             20             0               
+    12 x[AV4,business]
                     *             30             0               
-    15 x[business,AV5]
+    13 x[AV5,estandar]
+                    *            133             0               
+    14 x[AV5,leisure]
+                    *             21             0               
+    15 x[AV5,business]
                     *             36             0               
 
 Integer feasibility conditions:
 
-KKT.PE: max.abs.err = 2.84e-14 on row 22
-        max.rel.err = 7.87e-17 on row 22
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
         High quality
 
 KKT.PB: max.abs.err = 0.00e+00 on row 0

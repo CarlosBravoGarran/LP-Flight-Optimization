@@ -13,7 +13,7 @@ param coste :=
 
 # Hora de llegada programada (en minutos desde medianoche)
 param llegada :=
-    AV1 550    # 9:10 AM
+    AV1 570    # 9:10 AM
     AV2 535    # 8:55 AM
     AV3 580    # 9:40 AM
     AV4 595    # 9:55 AM
