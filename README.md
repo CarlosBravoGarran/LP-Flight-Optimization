@@ -4,7 +4,7 @@
 
 Este proyecto es una práctica de **programación lineal** centrada en la optimización de tarifas y gestión de aterrizaje de aviones mediante el uso de herramientas de modelado y solución matemática. Se plantea una solución en tres partes: 
 
-1. **Optimización de Tarifas**: Maximización del beneficio al asignar tarifas a los asientos en cada avión, teniendo en cuenta las capacidades de peso y asiento.
+1. **Optimización de Tarifas**: Maximización del beneficio al asignar tarifas a los asientos en cada avión, teniendo en cuenta las capacidades de peso y asiento y mínimos de ventas por tarifa.
 2. **Gestión de Aterrizaje**: Minimización de los costes de retraso al asignar slots de aterrizaje dentro de los límites de tiempo de llegada y disponibilidad de las pistas.
 3. **Modelo Fusionado**: Combinación de los modelos de tarifas y aterrizaje en un único modelo, optimizando ambas funciones objetivo.
 
